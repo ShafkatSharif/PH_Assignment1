@@ -289,12 +289,11 @@
     height: 600px;
     /* border: 1px solid blue; */
     margin-right: 60px;
-    flex-shrink: 0;
+
 }
 
 .solution-container .head-and-para {
     width: 700px;
-    flex-shrink: 0;
     /* border: 1px solid blue; */
 }
 
@@ -338,4 +337,103 @@
 
 .checklist-item img {
     margin-right: 6px;
+}
+
+
+#challenge {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 2px 120px 120px 120px;
+    /* border: red solid 1px; */
+}
+
+.challenge-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 48px;
+    padding: 80px 0px;
+    background-color: #F7F6F2;
+}
+
+.challenge-container h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.challenge-container p {
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #627382;
+
+}
+
+.btn5 {
+    padding: 16px 12px;
+    max-width: 194px;
+    background-color: #469165;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.15);
+    margin-bottom: 16px;
+}
+
+
+.btn5:hover {
+    background: linear-gradient(#28a75e 0%, #1f5139 100%);
+}
+
+#logo-and-tademark {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+    /* border: red solid 1px; */
+}
+
+#logo-and-tademark .footer-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: red solid 1px; */
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.footer-container .footer-logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+
+
+.trademark {
+    text-align: center;
+    border-top: 1px solid #E5E7EB;
+    padding-top: 24px;
+    margin-top: 24px;
+    max-width: 1360px;
+}
+
+.trademark p {
+    font-size: 16px;
+    color: #FAFAFA;
+    line-height: 24px;
 }
